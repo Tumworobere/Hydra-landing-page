@@ -1,5 +1,18 @@
 body {
-    margin: 0;
-    padding: 0
-  }
-
+  margin: 0;
+  padding: 0;
+}
+#logo {
+  display: flex;
+  align-items: center;
+}
+#logo-img {
+  width: 102px;
+  height: 103px;
+  flex-shrink: 0;
+}
+#logo-text {
+  width: 76px;
+  height: 46px;
+  flex-shrink: 0;
+}
