@@ -4,7 +4,7 @@ body {
     font-family:  'Montserrat', sans-serif;
     box-sizing: border-box;
     background-color: #302c42;}
-
+ 
  .button-container {
     margin: 30px;
     padding: 0;
@@ -76,6 +76,7 @@ section {
     );
     height: 48px;
   }
+<<<<<<< HEAD
 =======
 svg {
   width: 70px;
@@ -105,4 +106,54 @@ p {
 }
 
 >>>>>>> fce29000406b9a7ce37ade979d596b68d3e5869c
+=======
+  
+  .content {
+    display: flex;
+    align-items: center;
+  } 
+  
+  .phone-call {
+    position: relative;
+    left: -15px; 
+    top: -10px; 
+    width: 30px;
+    height: 30px;
+    color: rgba(192, 183, 232, 1);
+  }
+  
+  .text {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .digits {
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 15px;
+    margin-top: -5px;
+    color: red;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .vector-5 {
+    position: relative;
+    left: -20px; 
+    color: rgb(0, 128, 17);
+  }
+  
+  .vector-6 {
+    position: relative;
+    left: 20px; 
+    color: rgb(0, 128, 92);
+  }
+
+  
+>>>>>>> 116bd42fbe53581ddcaef5e923d80245eb644f4a
 
