@@ -1,9 +1,12 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montsarrat:wght@400;500;700&family=Nontserrat:wght@700&family=Volkhov:wght@700&display=swap');
+
+* {
     margin: 0;
     padding: 0;
     font-family:  'Montserrat', sans-serif;
     box-sizing: border-box;
-    background-color: #302c42;}
+    background-color: #302c42;
+    }
 
  .button-container {
     margin: 30px;
@@ -56,7 +59,6 @@ section {
   box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
   }
 
-<<<<<<< HEAD
   .btns {
     display: flex;
     align-items: center;
@@ -75,8 +77,9 @@ section {
       rgba(192, 183, 232, 1) 100%
     );
     height: 48px;
+    box-sizing : border-box;
   }
-=======
+
 svg {
   width: 70px;
   height: 70px;
@@ -104,5 +107,64 @@ p {
   font-weight: 400;
 }
 
->>>>>>> fce29000406b9a7ce37ade979d596b68d3e5869c
+body {
+  font-size:16px ;
+  background: #302C42;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 70px;
+  color: #fff;
+  overflow-x: hidden;
+}
 
+main {
+  margin-top: 120px;
+  display: flex;
+  gap: 90px;
+
+}
+
+figure {
+  /* margin-top: 100px; */
+  position: relative;
+}
+
+.shadow {
+  width: 100%;
+  max-width: 424px;
+  height: auto;
+  object-fit: cover;
+}
+.right {
+  position: absolute;
+  top: -35%;
+  left: 30%;
+}
+.curve{
+  position: absolute;
+  top: 45%;
+  left: -20%;
+}
+
+.left{
+  position: absolute;
+  top: -35%;
+  left:10% ;
+  /* z-index: 1; */
+}
+ .google {
+  width: 100%;
+  max-width: 490px;
+  object-fit: cover;
+  border-radius: 100px 100px 100px 240px;
+  height:auto ;
+  position: absolute;
+  z-index: 2;
+  top: 3%;
+  right: 3%;
+  -webkit-border-radius: 100px 100px 100px 240px;
+  -moz-border-radius: 100px 100px 100px 240px;
+  -ms-border-radius: 100px 100px 100px 240px;
+  -o-border-radius: 100px 100px 100px 240px;
+}
