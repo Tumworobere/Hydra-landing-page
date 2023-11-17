@@ -2,4 +2,52 @@ body {
     margin: 0;
     padding: 0
   }
+  
+  .content {
+    display: flex;
+    align-items: center;
+  } 
+  
+  .phone-call {
+    position: relative;
+    left: -15px; 
+    top: -10px; 
+    width: 30px;
+    height: 30px;
+    color: rgba(192, 183, 232, 1);
+  }
+  
+  .text {
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 15px;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .digits {
+    font-family: Montserrat;
+    font-size: 8px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 15px;
+    margin-top: -5px;
+    color: red;
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .vector-5 {
+    position: relative;
+    left: -20px; 
+    color: rgb(0, 128, 17);
+  }
+  
+  .vector-6 {
+    position: relative;
+    left: 20px; 
+    color: rgb(0, 128, 92);
+  }
+
+  
 
