@@ -7,13 +7,12 @@ body {
     display: flex;
     align-items: center;
   }
-  .hd-button-3 {
+  .hd-button {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 12px;
-    color: #343045;
+    color: #302c42;
     border: none;
-
     border-radius: 40px;
     background: rgb(129, 118, 175);
     background: linear-gradient(
