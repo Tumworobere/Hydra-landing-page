@@ -114,3 +114,129 @@ header {
     cursor: pointer;
     display: none;
 }
+
+/*----------------main banner----------------*/
+
+
+.main-banner-and-text {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+
+.main-text {
+  width: 40%;
+  height: 100%;
+  padding: 140px 100px;
+  font-family: var(--font-family);
+  text-transform: capitalize;
+}
+
+.main-text h1 {
+  font-weight: 700;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.main-text h1:first-child {
+  margin-bottom: 0;
+}
+
+.main-text span {
+  font-size: 40px;
+  font-weight: 700;
+  background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.main-text p {
+  color: white;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.button-wrapper {
+  height: 150px;
+  display: flex;
+  padding: 30px 0;
+}
+
+.button-wrapper button {
+  width: 214px;
+  height: 48px;
+  border-radius: 40px;
+  background-image: linear-gradient(to right, rgba(129, 118, 175, 1), rgba(192, 183, 232, 1));
+  border: none;
+  margin-top: 30px;
+  text-transform: uppercase;
+  font-family: var(--font-family);
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(52, 48, 69, 1);
+  cursor: pointer;
+}
+
+.button-wrapper button:hover {
+  opacity: 0.6;
+}
+
+.button-wrapper img {
+  margin-top: 20px;
+}
+
+.main-banner {
+  margin: 110px auto;
+}
+
+.extra-img img {
+  display: none;
+}
+
+.icon-wrapper {
+  width: 90%;
+  height: 170px;
+  background-image: radial-gradient(rgba(58, 52, 86, 0.95), rgba(33, 30, 46, 1));
+  margin: 0px auto;
+  padding: 50px 0;
+  border-radius: 90px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon-wrapper img {
+  margin-right: 10px;
+}
+
+
+.location-icon {
+  display: flex;
+  border-right: 1px solid white;
+  padding-right: 80px;
+}
+
+.icon-text h1 {
+  font-size: 24px;
+  font-family: var(--font-family);
+  color: rgba(255, 255, 255, 1);
+}
+
+.icon-text p {
+  font-size: 14px;
+  font-family: var(--font-family);
+  color: rgba(255, 255, 255, 1);
+}
+
+.phone-call-icon {
+  display: flex;
+}
+
+.mail-icon {
+  display: flex;
+  border-left: 2px solid white;
+  padding-left: 80px;
+}
