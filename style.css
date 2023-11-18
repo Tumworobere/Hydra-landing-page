@@ -11,6 +11,7 @@
 }
 
 .container {
+    background: url(../images/webpage-background.png);
     width: 100%;
     height: auto;
     background-color: #343045;
@@ -226,17 +227,18 @@ header {
 }
 
 .icon-text p {
-  font-size: 14px;
+  font-size: 15px;
   font-family: var(--font-family);
   color: rgba(255, 255, 255, 1);
 }
 
 .phone-call-icon {
   display: flex;
+  padding: 80px;
 }
 
 .mail-icon {
   display: flex;
-  border-left: 2px solid white;
+  border-left: 1px solid white;
   padding-left: 80px;
 }
