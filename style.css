@@ -1,68 +1,116 @@
-body {
-  margin: 0;
-  padding: 0;
-}
-#logo {
-  display: flex;
-  align-items: center;
-}
-#logo-img {
-  width: 102px;
-  height: 103px;
-  flex-shrink: 0;
-}
-#logo-text {
-  width: 76px;
-  height: 46px;
-  flex-shrink: 0;
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+:root {
+    --font-family: 'Montserrat', sans-serif;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family:  'Montserrat', sans-serif;
- box-sizing: border-box;
-  background-color: #302c42;
-
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-
-
-.button-container {
-  margin: 30px;
-  padding: 0;
-  text-align: right;
-
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #343045;
 }
 
-.hydra-button {
-  display: inline-block;
-  border-radius: 40px;
-  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
-  color: #343045;
-  font-family: Montserrat;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-decoration: none;
-  text-align: center;
-  margin: 10px;
-  padding: 10px 15px;
+header {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    position: relative;
 }
+
+.logo {
+    display: flex;
+}
+
+.logo p {
+    font-weight: 100px;
+    font-size: 60px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    padding: 20px 0;
+    color: rgba(192, 183, 232, 1);
+}
+
+.lists {
+    display: flex;
+    gap: 30px;
+    padding: 45px 175px;
+}
+
+.lists li {
+    list-style: none;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.lists li:hover {
+    opacity: 0.6;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
 .contact-button {
-  display: inline-block;
-  border: 2px solid #fff;
-  border-radius: 40px;
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-decoration: none;
-  text-align: center;
-  margin: 10px;
-  padding: 10px 15px;
+    width: 154px;
+    height: 48px;
+    background-color: rgba(58, 52, 86, 0.95);
+    border: 2px solid rgba(255, 255, 255, 1);
+    border-radius: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: var(--font-family);
+    color: white;
+    text-transform: uppercase;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
 
+.contact-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.join-button {
+    width: 155px;
+    height: 48px;
+    background-image: linear-gradient(to right, rgba(129, 118, 175, 1), rgba(192, 183, 232, 1));
+    border-radius: 40px;
+    border: none;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: var(--font-family);
+    color: #343045;
+    text-transform: uppercase;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.join-button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+#hamburger svg {
+    fill: rgba(192, 183, 232, 1);
+    width: 40px;
+    cursor: pointer;
+    display: none;
 }
